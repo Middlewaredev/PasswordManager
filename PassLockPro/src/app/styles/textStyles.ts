@@ -9,5 +9,12 @@ export const textStyles = StyleSheet.create({
         color: colors.white,
         fontWeight: 'bold',
         textTransform: 'uppercase'
+    },
+    textHighlight: {
+        fontSize: 18,
+        fontFamily: fonts.text,
+        color: colors.white,
+        fontWeight: 'bold',
+        textAlign: 'center'
     }
 })

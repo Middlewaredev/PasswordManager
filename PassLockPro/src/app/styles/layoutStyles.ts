@@ -14,5 +14,12 @@ export const layoutStyles = StyleSheet.create({
         backgroundColor: colors.blue,
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    textHighlightBox: {
+        width: Dimensions.get('window').width * 0.7,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 30,
+        paddingHorizontal: 17,
     }
 })
