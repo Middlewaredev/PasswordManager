@@ -30,5 +30,14 @@ export const textStyles = StyleSheet.create({
         color: colors.white,
         textAlign: 'center',
         marginVertical: 10
+    },
+    mainButtonText: {
+        fontSize: 18,
+        fontFamily: fonts.text,
+        color: colors.white,
+        textAlign: 'center',
+        marginVertical: 10,
+        textTransform: 'uppercase',
+        fontWeight: 'bold'
     }
 })

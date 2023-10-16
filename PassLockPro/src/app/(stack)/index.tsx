@@ -5,6 +5,7 @@ import { useFonts } from 'expo-font';
 import { Roboto_400Regular } from '@expo-google-fonts/roboto';
 import TextHighlight from '../components/textHighlight';
 import TextsBox from '../components/textsBox';
+import ConfirmButton from '../components/confirmButton';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -26,6 +27,9 @@ export default function App() {
       <TextsBox
         mainText='Keep in mind that none of your details will be shared!!'
         secondText='All of your passwords will be stored only in your device.'
+      />
+      <ConfirmButton
+        text='Next'
       />
     </View>
   );

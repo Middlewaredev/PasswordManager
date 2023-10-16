@@ -28,5 +28,15 @@ export const layoutStyles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 30,
         paddingHorizontal: 40,
+    },
+    mainButton: {
+        width: 240,
+        height:70,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: '80%',
+        paddingHorizontal: 40,
+        backgroundColor: colors.red,
+        borderRadius: 40,
     }
 })
