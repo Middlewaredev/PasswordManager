@@ -16,5 +16,19 @@ export const textStyles = StyleSheet.create({
         color: colors.white,
         fontWeight: 'bold',
         textAlign: 'center'
+    },
+    mainText: {
+        fontSize: 14,
+        fontFamily: fonts.text,
+        color: colors.white,
+        textAlign: 'center',
+        marginVertical: 10
+    },
+    secondText: {
+        fontSize: 14,
+        fontFamily: fonts.text,
+        color: colors.white,
+        textAlign: 'center',
+        marginVertical: 10
     }
 })

@@ -21,5 +21,12 @@ export const layoutStyles = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 30,
         paddingHorizontal: 17,
+    },
+    textsBox: {
+        width: Dimensions.get('window').width * 0.7,
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginTop: 30,
+        paddingHorizontal: 40,
     }
 })
