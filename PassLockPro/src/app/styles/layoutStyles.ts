@@ -38,5 +38,18 @@ export const layoutStyles = StyleSheet.create({
         paddingHorizontal: 40,
         backgroundColor: colors.red,
         borderRadius: 40,
+    },
+    usernameBox: {
+        backgroundColor: colors.gray,
+        borderRadius: 10,
+        width: '70%',
+        height: 55,
+        paddingHorizontal: 0,
+        flexDirection: 'row'
+    },
+    usernameInput: {
+        width: '65%',
+        fontSize: 14,
+        color: colors.white,
     }
 })
