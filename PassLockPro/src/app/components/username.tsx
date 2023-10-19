@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import {View, TextInput} from 'react-native';
 import { layoutStyles } from '../styles/layoutStyles';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import colors from '../styles/colors';
+
 
 export default function Username() {
     return (
@@ -13,7 +15,6 @@ export default function Username() {
                 color={colors.white}
             />
             <TextInput
-                secureTextEntry
                 style={layoutStyles.usernameInput}
                 placeholder='Username'
                 placeholderTextColor={colors.white}
