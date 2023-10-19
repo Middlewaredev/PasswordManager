@@ -4,6 +4,7 @@ import { layoutStyles } from '../styles/layoutStyles';
 import TextHighlight from '../components/textHighlight';
 import TextsBox from '../components/textsBox';
 import Username from '../components/username';
+import Password from '../components/password';
 
 export default function CreateCredential(){
     return (
@@ -18,9 +19,8 @@ export default function CreateCredential(){
                 mainText='You have no way to recover this usarname and password.'
                 secondText="Store this in a safe place; you can't access this app without these credentials"
             />
-            <Username
-
-            />
+            <Username />
+            <Password />
         </SafeAreaView>
     );
 }
