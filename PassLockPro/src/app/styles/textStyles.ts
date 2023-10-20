@@ -39,5 +39,11 @@ export const textStyles = StyleSheet.create({
         marginVertical: 10,
         textTransform: 'uppercase',
         fontWeight: 'bold'
+    },
+    textBottonHighlight: {
+        color: colors.white,
+        fontFamily: fonts.heading,
+        fontSize: 36,
+        fontWeight: 'bold'
     }
 })

@@ -4,7 +4,7 @@ import { layoutStyles } from '../styles/layoutStyles';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
 import colors from '../styles/colors';
 
-export default function Password() {
+export default function ConfirmPassword() {
     const [showPassword, setShowPassword] = useState<boolean>(true);
     const [visibility, setVisibility] = useState<string>('visibility-off');
     return (
@@ -18,7 +18,7 @@ export default function Password() {
             <TextInput
                 secureTextEntry={showPassword}
                 style={layoutStyles.passwordInput}
-                placeholder='Password'
+                placeholder='Confirm Password'
                 placeholderTextColor={colors.white}
             />
             <MaterialIcons 

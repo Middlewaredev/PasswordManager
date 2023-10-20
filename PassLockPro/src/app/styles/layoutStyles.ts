@@ -42,14 +42,40 @@ export const layoutStyles = StyleSheet.create({
     usernameBox: {
         backgroundColor: colors.gray,
         borderRadius: 10,
-        width: '70%',
+        width: '100%',
         height: 55,
         paddingHorizontal: 0,
         flexDirection: 'row'
     },
     usernameInput: {
+        width: '82%',
+        fontSize: 14,
+        color: colors.white,
+    },
+    passwordInput: {
         width: '65%',
         fontSize: 14,
         color: colors.white,
+    },
+    credentialsBox: {
+        width: '70%',
+        justifyContent: 'space-between',
+        height: 190,
+        marginTop: 100,
+    },
+    bottonHighlight: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        height: 40,
+        marginTop: 20,
+        alignItems: 'center'
+    },
+    iconButton: {
+        backgroundColor: colors.red,
+        height: 40,
+        width: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius: 20
     }
 })

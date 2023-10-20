@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import {View, TextInput} from 'react-native';
 import { layoutStyles } from '../styles/layoutStyles';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons'
