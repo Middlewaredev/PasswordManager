@@ -9,9 +9,8 @@ type Props ={
 }
 
 export default function ConfirmButton({text, link}: Props) {
-    const dest = '/(stack)/'+link;
     return (
-        <Link href={dest} asChild>
+        <Link href={link} asChild>
             <TouchableOpacity 
             style={layoutStyles.mainButton}
             >

@@ -21,7 +21,7 @@ export default function Login(){
             </View>
             <ConfirmButton 
                 text='Sign in'
-                link='login'
+                link='home'
             />
         </View>
     );

@@ -31,11 +31,11 @@ export default function App() {
       <View style={{marginTop: '65%', justifyContent: 'space-between', height: 160}}>
         <ConfirmButton
           text='Sing in'
-          link='login'
+          link='/(stack)/login'
         />
         <ConfirmButton
           text='Sing up'
-          link='createCredential'
+          link='/(stack)/createCredential'
         />
       </View>
     </View>
