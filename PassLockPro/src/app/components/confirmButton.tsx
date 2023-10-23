@@ -5,11 +5,13 @@ import { Link } from 'expo-router';
 
 type Props ={
     text: string;
+    link: string;
 }
 
-export default function ConfirmButton({text}: Props) {
+export default function ConfirmButton({text, link}: Props) {
+    const dest = '/(stack)/'+link;
     return (
-        <Link href="/(stack)/createCredential" asChild>
+        <Link href={dest} asChild>
             <TouchableOpacity 
             style={layoutStyles.mainButton}
             >

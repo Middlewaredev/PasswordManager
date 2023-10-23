@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {View, TextInput} from 'react-native';
 import { layoutStyles } from '../styles/layoutStyles';
-import MaterialIcons from '@expo/vector-icons/MaterialIcons'
+import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import colors from '../styles/colors';
 
 export default function Password() {

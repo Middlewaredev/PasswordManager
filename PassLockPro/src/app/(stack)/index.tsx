@@ -28,9 +28,16 @@ export default function App() {
         mainText='Keep in mind that none of your details will be shared!!'
         secondText='All of your passwords will be stored only in your device.'
       />
-      <ConfirmButton
-        text='Next'
-      />
+      <View style={{marginTop: '65%', justifyContent: 'space-between', height: 160}}>
+        <ConfirmButton
+          text='Sing in'
+          link='login'
+        />
+        <ConfirmButton
+          text='Sing up'
+          link='createCredential'
+        />
+      </View>
     </View>
   );
 }

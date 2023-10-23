@@ -34,7 +34,6 @@ export const layoutStyles = StyleSheet.create({
         height:70,
         alignItems: 'center',
         justifyContent: 'center',
-        marginTop: '80%',
         paddingHorizontal: 40,
         backgroundColor: colors.red,
         borderRadius: 40,
@@ -62,6 +61,12 @@ export const layoutStyles = StyleSheet.create({
         justifyContent: 'space-between',
         height: 190,
         marginTop: 100,
+    },
+    loginBox: {
+        width: '70%',
+        justifyContent: 'space-between',
+        height: 120,
+        marginBottom: 20
     },
     bottonHighlight: {
         flexDirection: 'row',
