@@ -1,8 +1,18 @@
 import { Tabs } from "expo-router";
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import colors from "../styles/colors";
+import Home from "./home";
+import { useState } from "react";
+
 
 export default function TabsRouteLayout() {
+    const [menu, setMenu] = useState(false);
+    const [isModalVisible, setIsModalVisible] = useState(false);
+
+    const swipeMenu = () => {
+        setMenu(!menu);
+        setIsModalVisible(!menu); // Toggle modal visibility
+    }
     return(
         <Tabs
             screenOptions={{
@@ -10,10 +20,11 @@ export default function TabsRouteLayout() {
                 tabBarInactiveBackgroundColor: colors.gray,
                 headerLeft: () => (
                     <MaterialIcons
-                        name="menu"
+                        name={menu ? 'close' : 'menu'}
                         size={45}
                         color={colors.white}
                         style={{marginHorizontal: 20}}
+                        onPress={swipeMenu}
                     />
                 ),
                 headerRight: () => (
@@ -39,10 +50,10 @@ export default function TabsRouteLayout() {
                         color={color}
                     />,
                     title: '',
-                    
-                    
                 }}
+                
             />
+
             <Tabs.Screen
                 name="createPassword"
                 options={{
@@ -56,4 +67,12 @@ export default function TabsRouteLayout() {
             />
         </Tabs>
     )
+}
+
+function swipeMenu(menu, setMenu){
+    if(menu == "menu"){
+        setMenu("close");
+    } else {
+        setMenu("menu");
+    }
 }

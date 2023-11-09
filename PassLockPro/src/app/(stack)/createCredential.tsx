@@ -36,7 +36,7 @@ export default function CreateCredential(){
                 <Password />
                 <ConfirmPassword />
             </View>
-            <Link href="/(tabs)/home" asChild>
+            <Link href="/(stack)/login" asChild>
                 <TouchableOpacity 
                     style={layoutStyles.bottonHighlight}
                     >
